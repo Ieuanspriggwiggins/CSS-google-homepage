@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#top-left{
+    float: left;
+}
+
+#top-right{
+    margin-top: -7px;
+    float: right;
+}
+
+#profile{
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+#profile img{
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85em;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#logo{
+    display: block;
+}
+
+#form-area{
+    margin-top: 30px;
+    border: rgba(147,149,153, .5) solid 1px;
+    padding: 10px;
+    display: flex;
+    border-radius: 40px;
+}
+
+#form-area:hover{
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+#mag-icon{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    opacity: 75%;
+}
+
+#search-input{
+    display: inline-block;
+    border: none;
+    width: 400px;
+    margin-left: 10px;
+}
+
+#search-input:focus{
+    outline: none;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#buttons button{
+    margin: 10px;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border: none;
+    padding: 10px;
+}
+
+#buttons button:hover{
+    box-shadow: 0px 0px 1px 1px #7f8280;
+    cursor: pointer;
+}
+
